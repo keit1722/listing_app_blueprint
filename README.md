@@ -248,7 +248,7 @@
 |email|string|null: false|既に同じ組織に登録されているメールアドレスはバリデーションをかけている|
 |token|string|null: false, index: { unique: true }||
 |expires_at|datetime|null: false||
-|status|integer|null: false, default: 1|{ untouched: 1| accepted: 2| rejected: 3 }|
+|status|integer|null: false, default: 1|{ untouched: 1, accepted: 2, rejected: 3 }|
 
 
 ### 組織登録申請 / organization_registrations
@@ -287,8 +287,8 @@
 |:-|:-|:-|:-|
 |title|string|null: false||
 |body|text|null: false||
-|status|integer|null: false, default: 1|{ published: 1| draft: 2| draft_to_published: 3 }|
-|published_before|boolean|null: false| defaut: false||
+|status|integer|null: false, default: 1|{ published: 1, draft: 2| draft_to_published: 3 }|
+|published_before|boolean|null: false, defaut: false||
 |poster_id|integer|null: false||
 
 
@@ -297,7 +297,7 @@
 |カラム名|データ型|オプション|メモ|
 |:-|:-|:-|:-|
 |user_id|references|foreign_key: true|外部キー|
-|post|boolean|null: false| defaut: ture||
-|annoucement|boolean|null: false| defaut: ture||
-|organization|boolean|null: false| defaut: ture||
-|organization_invitation|boolean|null: false| defaut: ture|
+|post|boolean|null: false, defaut: ture||
+|annoucement|boolean|null: false, defaut: ture||
+|organization|boolean|null: false, defaut: ture||
+|organization_invitation|boolean|null: false, defaut: ture|

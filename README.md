@@ -287,7 +287,7 @@
 |:-|:-|:-|:-|
 |title|string|null: false||
 |body|text|null: false||
-|status|integer|null: false, default: 1|{ published: 1, draft: 2| draft_to_published: 3 }|
+|status|integer|null: false, default: 1|{ published: 1, draft: 2, draft_to_published: 3 }|
 |published_before|boolean|null: false, defaut: false||
 |poster_id|integer|null: false||
 

@@ -1,5 +1,11 @@
 # listing_app_bulueprint
 
+## ER図
+
+※矢印はポリモーフィック関連付けを表しています
+
+![listing-app-erd](https://user-images.githubusercontent.com/87513649/198011203-86bb02df-1720-4938-857a-0b9b3899e73b.png)
+
 ## テーブル設計
 
 ### ユーザ / users

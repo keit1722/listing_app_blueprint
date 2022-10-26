@@ -178,7 +178,7 @@
 |カラム名|データ型|オプション|メモ|
 |:-|:-|:-|:-|
 |name|string|null: false, index: { unique: true }||
-|location|integer|null: false|{ hakuba: 1| otari: 2 }|
+|location|integer|null: false|{ hakuba: 1, otari: 2 }|
 
 
 ### 予約リンク / reservation_links
@@ -200,8 +200,8 @@
 |start time_minute|string|null: false||
 |end time_hour|string|null: false||
 |end time_minute|string|null: false||
-|day|integer|null: false|{ monday: 1| tuesday: 2| wednesday: 3| thursday: 4| friday: 5| saturday: 6| sunday: 7| holiday: 8 }|
-|closed|boolean|null: false| default: false||
+|day|integer|null: false|{ monday: 1, tuesday: 2, wednesday: 3, thursday: 4, friday: 5, saturday: 6, sunday: 7, holiday: 8 }|
+|closed|boolean|null: false, default: false||
 
 ※「opening_hourable_id」「opening_hourable_type」「day」の組み合わせはユニーク
 
@@ -225,7 +225,7 @@
 |postable_type|string||ポリモーフィック関連|
 |title|string|null: false||
 |body|text|null: false||
-|status|integer|null: false|{ published: 1| draft: 2 }|
+|status|integer|null: false|{ published: 1, draft: 2 }|
 |published_before|boolean|null: false| defaut: false||
 
 
@@ -236,7 +236,7 @@
 |user_id|references|foreign_key: true|外部キー|
 |noticeable_id|references|polymorphic: true|外部キー、ポリモーフィック関連|
 |noticeable_type|string|null: false||
-|read|boolean|null: false| default: false||
+|read|boolean|null: false, default: false||
 
 
 ### 組織招待 / organization_invitations
@@ -248,7 +248,7 @@
 |email|string|null: false|既に同じ組織に登録されているメールアドレスはバリデーションをかけている|
 |token|string|null: false, index: { unique: true }||
 |expires_at|datetime|null: false||
-|status|integer|null: false|  default: 1|{ untouched: 1| accepted: 2| rejected: 3 }|
+|status|integer|null: false, default: 1|{ untouched: 1| accepted: 2| rejected: 3 }|
 
 
 ### 組織登録申請 / organization_registrations
@@ -268,7 +268,7 @@
 |カラム名|データ型|オプション|メモ|
 |:-|:-|:-|:-|
 |organization_registration_id|references|foreign_key: true|外部キー|
-|status|integer|null: false|{ accepted: 1| unaccepted: 2 }|
+|status|integer|null: false|{ accepted: 1, unaccepted: 2 }|
 
 
 ### ページ表示設定 / page_shows
@@ -277,8 +277,8 @@
 |:-|:-|:-|:-|
 |page_showable_id|references|polymorphic: true|外部キー、ポリモーフィック関連|
 |page_showable_type|string|null: false|ポリモーフィック関連|
-|reservation_link|boolean|null: false| default: true||
-|opening_hours|boolean|null: false| default: true||
+|reservation_link|boolean|null: false, default: true||
+|opening_hours|boolean|null: false, default: true||
 
 
 ### お知らせ/ announcements
@@ -287,7 +287,7 @@
 |:-|:-|:-|:-|
 |title|string|null: false||
 |body|text|null: false||
-|status|integer|null: false| default: 1|{ published: 1| draft: 2| draft_to_published: 3 }|
+|status|integer|null: false, default: 1|{ published: 1| draft: 2| draft_to_published: 3 }|
 |published_before|boolean|null: false| defaut: false||
 |poster_id|integer|null: false||
 

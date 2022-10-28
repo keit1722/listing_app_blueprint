@@ -310,6 +310,10 @@
 
 ## エンドポイント
 
+Markdownだと見にくいのでGoogleスプレッドシートでも閲覧可
+
+[https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332](https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332)
+
 |目的|HTTPメソッド|エンドポイント|コントローラー#アクション|
 |:-|:-|:-|:-|
 |トップページ表示|GET|/|pages#home|

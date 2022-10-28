@@ -382,6 +382,11 @@
 |組織からの招待の詳細ページ表示|GET|/organization_invitations/:token|organization_invitations#show|
 |お知らせ一覧ページ表示|GET|/announcements|announcements#index|
 |お知らせの詳細ページ表示|GET|/announcements/:id|announcements#show|
+
+### ユーザー登録済
+
+|目的|HTTPメソッド|エンドポイント|コントローラー#アクション|
+|:-|:-|:-|:-|
 |自分のプロフィールページを表示|GET|/mypage/profile|mypage/users#show|
 |自分のプロフィールの更新処理|PATCH|/mypage/profile|mypage/users#update|
 |自分のユーザアカウント削除処理|DELETE|/mypage/profile|mypage/users#destroy|
@@ -395,6 +400,11 @@
 |自分のメール受信設定詳細ページ表示|GET|/mypage/email_setting|mypage/incoming_emails#show|
 |自分のメール受信設定編集ページ表示|GET|/mypage/email_setting/edit|mypage/incoming_emails#edit|
 |自分のメール受信設定更新処理|PATCH|/mypage/email_setting|mypage/incoming_emails#update|
+
+### ビジネスユーザー用
+
+|目的|HTTPメソッド|エンドポイント|コントローラー#アクション|
+|:-|:-|:-|:-|
 |ビジネスユーザ用ログインページ表示|GET|/business/login|business/sessions#new|
 |ビジネスユーザ用ログイン処理|POST|/business/login|business/sessions#create|
 |組織への招待状況一覧ページ表示|GET|/organizations/:organization_slug/organization_invitations|organizations/organization_invitations#index|
@@ -534,6 +544,11 @@
 |組織情報更新処理|PATCH/PUT|/organizations/:slug|organizations#update|
 |組織削除処理|DELETE|/organizations/:slug|organizations#destroy|
 |組織からの退会処理|DELETE|/organization_users/:slug|organization_users#destroy|
+
+### 管理者用
+
+|目的|HTTPメソッド|エンドポイント|コントローラー#アクション|
+|:-|:-|:-|:-|
 |アドミンユーザ用ログインページ表示|GET|/pvsuwimvsuoitmucvyku/login|pvsuwimvsuoitmucvyku/sessions#new|
 |アドミンユーザ用ログイン処理|POST|/pvsuwimvsuoitmucvyku/login|pvsuwimvsuoitmucvyku/sessions#create|
 |飲食店の投稿を下書きから公開状態へ更新する処理|PATCH|/pvsuwimvsuoitmucvyku/organizations/:organization_slug/restaurants/:restaurant_slug/posts/:id/to_published|pvsuwimvsuoitmucvyku/organizations/restaurants/posts#to_published|

@@ -1,4 +1,4 @@
-# listing_app_bulueprint
+# listing app のDB設計・エンドポイント
 
 ## ER図
 

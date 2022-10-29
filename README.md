@@ -1,5 +1,11 @@
 # listing app のDB設計・エンドポイント
 
+## エンドポイント
+
+Markdownだと見にくくなってしまうため下記リンクのGoogleスプレッドシートからご確認ください
+
+[https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332](https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332)
+
 ## ER図
 
 ※矢印はポリモーフィック関連付けを表しています
@@ -307,9 +313,3 @@
 |annoucement|boolean|null: false, defaut: ture||
 |organization|boolean|null: false, defaut: ture||
 |organization_invitation|boolean|null: false, defaut: ture|
-
-## エンドポイント
-
-Markdownだと見にくくなってしまうため下記リンクのGoogleスプレッドシートからご確認ください
-
-[https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332](https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332)

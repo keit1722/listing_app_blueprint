@@ -310,6 +310,6 @@
 
 ## エンドポイント
 
-Markdownだと見にくいので下記のリンクからGoogleスプレッドシートで閲覧願います
+Markdownだと見にくくなってしまうため下記リンクのGoogleスプレッドシートからご確認ください
 
 [https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332](https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332)

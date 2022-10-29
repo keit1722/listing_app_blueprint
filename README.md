@@ -1,10 +1,10 @@
-# listing_app_bulueprint
+# listing app のDB設計・エンドポイント
 
 ## ER図
 
 ※矢印はポリモーフィック関連付けを表しています
 
-![listing-app-erd](https://user-images.githubusercontent.com/87513649/198011203-86bb02df-1720-4938-857a-0b9b3899e73b.png)
+![listing-app-erd](https://user-images.githubusercontent.com/87513649/198789903-223ac36d-3055-4853-a2bf-5df83275dfde.png)
 
 ## テーブル設計
 
@@ -307,3 +307,9 @@
 |annoucement|boolean|null: false, defaut: ture||
 |organization|boolean|null: false, defaut: ture||
 |organization_invitation|boolean|null: false, defaut: ture|
+
+## エンドポイント
+
+Markdownだと見にくくなってしまうため下記リンクのGoogleスプレッドシートからご確認ください
+
+[https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332](https://docs.google.com/spreadsheets/d/1KMnVRAjFGCwj85vtm1vtErqVlCopP2kbY2h1iRZJfSE/edit#gid=776053332)

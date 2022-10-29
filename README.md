@@ -4,7 +4,7 @@
 
 ※矢印はポリモーフィック関連付けを表しています
 
-![listing-app-erd](https://user-images.githubusercontent.com/87513649/198011203-86bb02df-1720-4938-857a-0b9b3899e73b.png)
+![listing-app-erd](https://user-images.githubusercontent.com/87513649/198789903-223ac36d-3055-4853-a2bf-5df83275dfde.png)
 
 ## テーブル設計
 
